@@ -11,8 +11,7 @@
                 "text": "step3.md"
             },
             {
-                "text": "step4.md",
-                "verify": "verify4.json"
+                "text": "step4.md"
             }
         ],
         "intro": {
