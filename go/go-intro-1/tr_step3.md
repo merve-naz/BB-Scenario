@@ -27,7 +27,7 @@ func main() {
 	fmt.Println(e)
 
 	// The `:=` syntax bir değişkene "initial" değeri vermek için kullanılır
-	// `var f string = "elma"` 
+	var f string = "elma"
 	fmt.Println(f)
 
     // Aşağıda g değeri 10 olsun,fmt.Println() ile yukarıdaki örnekler gibi bastırılsın
