@@ -4,6 +4,8 @@ Go is designed to make it easy to write concurrent programs, allowing you to per
 #### Goroutines
 Goroutines are lightweight threads that are managed by the Go runtime. They allow you to execute functions concurrently without creating a new thread for each one. Goroutines are created using the go keyword, which starts a new goroutine and runs the specified function in the background.
 
+Install Go in shell.
+```apk add go```
 First create a Go page
 ```vim goroutine.go```
 To create a goroutine, you can define a function and use the go keyword to start it:

@@ -4,6 +4,8 @@ Go, eşzamanlı programlama yapmayı kolaylaştıran bir dildir ve aynı anda bi
 ### Goroutin
 Goroutin ler, Go çalışma zamanı tarafından yönetilen hafif iş parçacıklarıdır. Her bir işlev için yeni bir iş parçacığı oluşturmadan fonksiyonları aynı anda yürütmeyi sağlarlar. Gorutinler, arka planda belirtilen işlevi çalıştıran go anahtar kelimesi kullanılarak oluşturulur.
 
+Go paketini yükleyelim.
+```apk add go```
 Yeni bir Go sayfası oluşturarak başlayalım.
 ```vim goroutine.go```
 
