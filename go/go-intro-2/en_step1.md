@@ -24,6 +24,6 @@ func main() {
     fmt.Println("Main function")
 }
 ```
-Save and exit (Shortcut ESC + wq! )
+Save and exit (Shortcut ESC + :wq! )
 When you run this code,
 ```go run goroutine.go``` you'll see that the "Hello, world!" message is printed after the "Main function" message, even though it was started first. This is because the sayHello function is running concurrently in the background.

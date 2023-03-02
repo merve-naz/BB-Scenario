@@ -36,7 +36,7 @@ func main() {
     fmt.Println(x + y) // prints 15
 }
 ```
-Save and exit (Shortcut ESC + wq! )
+Save and exit (Shortcut ESC + :wq! )
 When you run this code,
 ```go run gour.go```
 

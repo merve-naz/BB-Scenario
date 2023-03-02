@@ -25,6 +25,6 @@ func main() {
     fmt.Println("Main function")
 }
 ```
-Kaydet ve çık (Kısayol ESC + wq! )
+Kaydet ve çık (Kısayol ESC + :wq! )
 Kodu çalıştırıken,
 ```go run goroutine.go``` "Hello, world!" mesajı, önceden başlatıldığı halde "Main Function" mesajından sonra yazdırılmaktadır. Bu, sayHello fonksiyonunun arka planda eşzamanlı olarak çalıştırılıyor olması nedeniyledir.

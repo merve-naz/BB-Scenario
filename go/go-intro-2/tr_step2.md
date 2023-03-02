@@ -36,7 +36,7 @@ func main() {
     fmt.Println(x + y) 
 }
 ```
-Kaydet ve çık (Kısayol ESC + wq! )
+Kaydet ve çık (Kısayol ESC + :wq! )
 Kodu çalıştırıken,
 ```go run channel.go```
 Bu örnekte, sum fonksiyonu bir tam sayı dilimi toplamını hesaplar ve sonucu kanal aracılığıyla gönderir. Ana işlev, dilimin yarısını hesaplamak için iki gorutin çalıştıran sum işlevini çalıştırır. Sonuçlar daha sonra kanaldan alınır ve toplanarak son toplam elde edilir.Sonuç 15 se devam edebiliriz.
