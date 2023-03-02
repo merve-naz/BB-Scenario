@@ -6,7 +6,8 @@ Goroutin ler, Go çalışma zamanı tarafından yönetilen hafif iş parçacıkl
 
 Go paketini yükleyelim.
 ```apk add go```
-Yeni bir Go sayfası oluşturarak başlayalım.
+
+Ardından yeni bir Go sayfası oluşturalım.
 ```vim goroutine.go```
 
 Gorutin oluşturmak için bir işlev tanımlayabilir ve go anahtar kelimesini kullanarak başlatabilirsiniz:

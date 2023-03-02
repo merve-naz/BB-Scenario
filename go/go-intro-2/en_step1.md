@@ -6,6 +6,7 @@ Goroutines are lightweight threads that are managed by the Go runtime. They allo
 
 Install Go in shell.
 ```apk add go```
+
 First create a Go page
 ```vim goroutine.go```
 To create a goroutine, you can define a function and use the go keyword to start it:
