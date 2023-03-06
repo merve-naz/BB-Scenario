@@ -33,5 +33,6 @@ Then, let's run the hello.go page.
 ```
 go run hello.go
 ```
+Correct output : Hello, World!
 Note: If you get the "bash: go: command not found" error at this step, you should try installing Go again.
 Now, we can continue.

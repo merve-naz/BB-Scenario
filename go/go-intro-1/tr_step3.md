@@ -31,6 +31,9 @@ func main() {
 	fmt.Println(f)
 
     // Aşağıda g değeri 10 olsun,fmt.Println() ile yukarıdaki örnekler gibi bastırılsın
+
+
+	// İşlemi kaydedip hello.go 'dan çıkmak için "Esc" + ":" + "w" + "q" + "!" karakterlerine basıp "enter" diyelim
 }
 ```
 Çalıştırmak için,

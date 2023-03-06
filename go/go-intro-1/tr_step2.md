@@ -34,5 +34,6 @@ Ardından hello.go sayfasını çalıştıralım
 ```
 go run hello.go
 ```
+Doğru Çıktı : Hello, World!
 Not:Eğer bu adımda "bash: go: command not found" hatası aldıysanız,Go'nun yüklemeyi tekrar denemelisiniz.
 Şimdi devam edebiliriz.
