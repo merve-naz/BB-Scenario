@@ -5,8 +5,7 @@ In this step, you will create a simple Go web application that can be deployed t
 1. Create a new directory for your Go project and navigate to it:
 ```$ mkdir my-web-app && cd my-web-app```
 2. Create a new file called main.go with the following content:
-```
-package main
+```package main
 
 import (
     "fmt"
