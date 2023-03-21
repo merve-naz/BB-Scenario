@@ -1,9 +1,13 @@
 #### Level: Orta
 ### Senaryo: Go Standard kütüphanesini kullanarak statik dosyalara hizmet veren bir web sunucusu oluşturma 
  
-1. Go projeniz için yeni bir dizin oluşturun ve dizine gidin:
+1. Go projeniz için go ve 
 ```
-mkdir go-webserver && cd go-webserver
+apk add go
+```
+nano yu yükleyelim.
+```
+apk add nano
 ```
 2. Nano veya vim gibi bir metin editörü kullanarak main.go adında yeni bir dosya oluşturun:
 ```nano main.go```
@@ -32,17 +36,26 @@ func main() {
 ```
 4. Statik dosyalarınızı (ör. HTML, CSS, JavaScript) içerecek olan public adlı yeni bir dizin oluşturun:
 ```
-mkdir public
+mkdir public && cd public
 ```
 5. public dizininde index.html adlı bir dosya oluşturun:
-```echo "<html><body><h1>Hello, World!</h1></body></html>" > public/index.html```
+```
+<table style="background-color:#33475b">
+<tr>
+<th>Name</th>
+<th>Job Title</th> 
+</tr>
+<tr>
+<td>Bulut Bilisimciler</td>
+<td>Learner</td>
+</tr>
+</table>
+```
 
-6. public dizininde style.css adlı bir dosya oluşturun:
-```echo "body { background-color: yellow; }" > public/style.css``
 7. Aşağıdaki komutu çalıştırarak sunucuyu başlatın:
 ```go run main.go```
 
-8. Web tarayıcınızı açın ve http://localhost:8080 adresine gidin. "Merhaba Dünya!" mesajı sarı bir arka plan rengiyle görüntülenecektir.
+8. Web tarayıcınızı açmak node un üstündeki kısayol ile port 8080 e gidin "Bulut Bilişimciler" mesajı mavi bir arka plan rengiyle görüntülenecektir.
 
 Diğer statik dosyaları sunmaya yönelik testler yapmak için resim, JavaScript veya CSS dosyası gibi herhangi bir dosyayı public dizinine ekleyin ve tarayıcıda erişmeyi deneyin.
 

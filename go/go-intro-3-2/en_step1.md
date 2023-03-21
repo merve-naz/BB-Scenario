@@ -1,9 +1,9 @@
 #### Level: Elementary
 ### Scenario: Creating a web server that serves static files using the Go standard library
   
-1. Create a new directory for your Go project and navigate into it:
+1. First install Go 
 ```
-mkdir go-webserver && cd go-webserver
+apk add go
 ```
 2. Create a new file called main.go using a text editor such as nano or vim:
 But first we need to add nano 
@@ -40,16 +40,25 @@ Save shortcut ctrl + X and Y + enter
 mkdir public
 ```
 5. Create an index.html file in the public directory:
-```echo "<html><body><h1>Hello, World!</h1></body></html>" > public/index.html```
-------
-6. Create a style.css file in the public directory:
-```echo "body { background-color: yellow; }" > public/style.css``
-7. Start the server by running the following command:
+```
+<table style="background-color:#33475b">
+<tr>
+<th>Name</th>
+<th>Job Title</th> 
+</tr>
+<tr>
+<td>Bulut Bilisimciler</td>
+<td>Learner</td>
+</tr>
+</table>
+```
+
+6. Start the server by running the following command:
 ```go run main.go```
 
-8. Start the server by running the following command:
+7. Start the server by running the following command:
 
-Open a web browser and navigate to http://localhost:8080 to see the "Hello, World!" message displayed with a yellow background color.
+Open navigate bar to connect 8080 port on node to see the "Bulut Bilisimciler" message displayed with a blue background color.
 
 Test serving other static files by adding any file such as an image, javascript or css file to the public directory and try to access them on the browser.
 
