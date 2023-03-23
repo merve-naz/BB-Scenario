@@ -32,4 +32,4 @@ This code uses the log.Printf function to log the value of i to the console. Whe
 
 ### Conclusion
 
-In this section, we've covered some of the key debugging techniques and best practices in Go, including using print statements and debuggers, using built-in tools like go test and go pprof, and logging errors and debug information. By mastering
+In this section, we've covered some of the key debugging techniques and best practices in Go, including using print statements and debuggers, using built-in tools like go test and go pprof, and logging errors and debug information. 
