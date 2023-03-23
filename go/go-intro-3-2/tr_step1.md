@@ -39,6 +39,9 @@ func main() {
 mkdir public && cd public
 ```
 5. public dizininde index.html adlı bir dosya oluşturun:
+```nano index.html```
+
+İsterseniz arkaplan rengini değiştirebilirsiniz
 ```
 <table style="background-color:#33475b">
 <tr>
@@ -51,7 +54,7 @@ mkdir public && cd public
 </tr>
 </table>
 ```
-
+Kaydet ve Çık -> Ctrl + x ve Y
 7. Aşağıdaki komutu çalıştırarak sunucuyu başlatın:
 ```go run main.go```
 

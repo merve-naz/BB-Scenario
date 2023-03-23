@@ -40,6 +40,8 @@ Save shortcut ctrl + X and Y + enter
 mkdir public
 ```
 5. Create an index.html file in the public directory:
+```nano index.html```
+Paste the codes
 ```
 <table style="background-color:#33475b">
 <tr>

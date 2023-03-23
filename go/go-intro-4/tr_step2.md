@@ -28,7 +28,7 @@ This creates a simple web server that listens for incoming HTTP requests and res
 
 This will start the web server on port 8080.
 
-4. Open a web browser and go to the URL http://localhost:8080. You should see the message "Hello, World!" displayed in your browser.
+4. Node1 ile 8080 portuna ilerleyin,gelişmiş seçenekleri göster deyip "Hello,World!" çıktısını görebilirsiniz.
 
 5. Once you have verified that the web application works locally, you can deploy it to a cloud platform. One popular option is to use the Heroku cloud platform. To deploy your application to Heroku, you will first need to install the Heroku CLI by running the following command:
 

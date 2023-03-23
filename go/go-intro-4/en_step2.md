@@ -34,9 +34,11 @@ This will start the web server on port 8080.
 5. Once you have verified that the web application works locally, you can deploy it to a cloud platform. One popular option is to use the Heroku cloud platform. To deploy your application to Heroku, you will first need to install the Heroku CLI by running the following command:
 
 ```$ apk add --no-cache heroku```
+apk update && apk add apk-tools
+
 6. Next, create a new Heroku application by running the following command:
 ```$ heroku create```
-
+----problem here ---------------------------
 This will create a new Heroku application with a randomly generated name.
 
 Congratulations! You have now created a simple Go web application and deployed it to the Heroku cloud platform.
