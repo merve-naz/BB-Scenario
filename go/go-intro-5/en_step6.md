@@ -17,16 +17,16 @@ func myFunc() {
     }
 }
 ```
-2009/11/10 23:00:00 i = 0
-2009/11/10 23:00:00 i = 1
-2009/11/10 23:00:00 i = 2
-2009/11/10 23:00:00 i = 3
-2009/11/10 23:00:00 i = 4
-2009/11/10 23:00:00 i = 5
-2009/11/10 23:00:00 i = 6
-2009/11/10 23:00:00 i = 7
-2009/11/10 23:00:00 i = 8
-2009/11/10 23:00:00 i = 9
+2009/11/10 23:00:00 i = 0 \
+2009/11/10 23:00:00 i = 1 \
+2009/11/10 23:00:00 i = 2 \
+2009/11/10 23:00:00 i = 3 \
+2009/11/10 23:00:00 i = 4 \
+2009/11/10 23:00:00 i = 5 \
+2009/11/10 23:00:00 i = 6 \
+2009/11/10 23:00:00 i = 7 \
+2009/11/10 23:00:00 i = 8 \
+2009/11/10 23:00:00 i = 9 
 
 This code uses the log.Printf function to log the value of i to the console. When the function is run, it will output a log message for each iteration of the loop, making it easier to track the program's progress.
 
