@@ -27,18 +27,18 @@ Bu kod, myFunc fonksiyonunu çağıran ve beklenen sonucu döndürdüğünü kon
 ```go test```
 
 Şu çıktıyı almalısınız:
-PASS
+PASS \
 ok      file    0.001s
 
 Bu, testin başarıyla geçtiğini gösterir.
 
 Test başarısız olursa, neyin yanlış gittiğini belirten bir hata mesajı yazdıracaktır.
-result:=44'i şu şekilde değiştirin, böylece aşağıdakine benzer bir çıktı görebilirsiniz
+result:=44 şeklinde değiştirin, böylece aşağıdakine benzer bir çıktı görebilirsiniz.
 
---- FAIL: TestMyFunc (0.00s)
-    main_test.go:10: result is 44, expected 45
-FAIL
-exit status 1
+--- FAIL: TestMyFunc (0.00s) \
+    main_test.go:10: result is 44, expected 45 \
+FAIL \
+exit status 1 \
 FAIL    file    0.003s
 
 

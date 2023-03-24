@@ -26,7 +26,7 @@ This code defines a test function called TestMyFunc that calls the myFunc functi
 ```go test```
 
 You should see the following output:
-PASS
+PASS \
 ok      file    0.001s
 
 This indicates that the test passed successfully. 
@@ -34,10 +34,10 @@ This indicates that the test passed successfully.
 If the test will be failed, it would have printed an error message indicating what went wrong.
 change result:=44 like that, you should see
 
---- FAIL: TestMyFunc (0.00s)
-    main_test.go:10: result is 44, expected 45
-FAIL
-exit status 1
+--- FAIL: TestMyFunc (0.00s) \
+    main_test.go:10: result is 44, expected 45 \
+FAIL \
+exit status 1 \
 FAIL    file    0.003s
 
 

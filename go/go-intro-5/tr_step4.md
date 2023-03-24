@@ -35,4 +35,3 @@ i = 9
 
 
 Bu kod, fmt.Println işlevini kullanarak döngü değişkeni i'nin değerini konsola yazdıran myFunc fonksiyonunu tanımlar. Main func. daha sonra myFunc'ı çağırır ve i'nin 0'dan 9'a kadar olan değerlerini yazdırır.
-"My first line  \nMy second line  \nMy third line  \nMy last line"
