@@ -24,7 +24,7 @@ defer file.Close()
 ```
 
 This code attempts to open a file that doesn't exist, and if an error occurs, it prints an error message and returns.
--error opening file: open nonexistent-file.txt: no such file or directory
+-error opening file: open nonexistent-file.txt: no such file or directory \
 
  If the file is opened successfully, it is then processed and closed using a defer statement.
 
