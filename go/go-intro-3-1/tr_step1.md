@@ -14,7 +14,6 @@ mkdir go-webserver && cd go-webserver
 
 4.Belirli bir bağlantı noktasında (bu durumda port 8080) sunucuyu başlatacak olan main fonksiyonunu tanımlayın:
 ```
-```
 package main
 
 import (
@@ -35,7 +34,9 @@ func handler(w http.ResponseWriter, r *http.Request) {
 5. main.go dosyasını kaydedin ve kapatın (Kısayol Esc + :wq )
 
 6. main.go yu çalıştıralım.
-```go run main.go```
+``` 
+go run main.go
+```
 
 7. Web tarayıcınızı açın ve http://localhost:8080 adresine giderek "Merhaba, Dünya!" mesajını tarayıcınızda görüntüleyin.
 Tebrikler, Go standart kütüphanesi kullanarak basit bir web sunucusu başarıyla oluşturdunuz!

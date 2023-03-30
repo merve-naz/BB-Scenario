@@ -10,7 +10,9 @@ nano yu yükleyelim.
 apk add nano
 ```
 2. Nano veya vim gibi bir metin editörü kullanarak main.go adında yeni bir dosya oluşturun:
-```nano main.go```
+```
+nano main.go
+```
 3. main.go dosyasında, Go standart kütüphanesinden net/http paketini içe aktarın ve belirtilen bir dizindeki (bu durumda public dizini) statik dosyaları sunacak bir handler function tanımlayın:
 ```
 package main
@@ -39,7 +41,9 @@ func main() {
 mkdir public && cd public
 ```
 5. public dizininde index.html adlı bir dosya oluşturun:
-```nano index.html```
+```
+nano index.html
+```
 
 İsterseniz arkaplan rengini değiştirebilirsiniz
 ```
@@ -56,7 +60,9 @@ mkdir public && cd public
 ```
 Kaydet ve Çık -> Ctrl + x ve Y
 7. Aşağıdaki komutu çalıştırarak sunucuyu başlatın:
-```go run main.go```
+```
+go run main.go
+```
 
 8. Web tarayıcınızı açmak node un üstündeki kısayol ile port 8080 e gidin "Bulut Bilişimciler" mesajı mavi bir arka plan rengiyle görüntülenecektir.
 
