@@ -38,5 +38,5 @@ func handler(w http.ResponseWriter, r *http.Request) {
 go run main.go
 ```
 
-7. Web tarayıcınızı açın ve http://localhost:8080 adresine giderek "Merhaba, Dünya!" mesajını tarayıcınızda görüntüleyin.
+7. Shell'in üstünde bulunan porta git ikonu ile 8080 adresine giderek "Merhaba, Dünya!" mesajını tarayıcınızda görüntüleyin.
 Tebrikler, Go standart kütüphanesi kullanarak basit bir web sunucusu başarıyla oluşturdunuz!
