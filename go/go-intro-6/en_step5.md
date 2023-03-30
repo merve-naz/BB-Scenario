@@ -27,9 +27,9 @@ We then declare a pointer variable ptr and use the new() function to allocate me
 When we run this program, we get the following output:
 
 
-Value of x: 42
-Memory address of x: 0xc000018078
-Value of ptr: 100
-Memory address of ptr: 0xc00000a0c0
+Value of x: 42 \
+Memory address of x: 0xc000018078 \
+Value of ptr: 100 \
+Memory address of ptr: 0xc00000a0c0 
 
 As we can see, the variable x is allocated on the stack, and its memory address is within the stack frame of the main() function. The variable ptr is allocated on the heap, and its memory address is outside the stack frame.

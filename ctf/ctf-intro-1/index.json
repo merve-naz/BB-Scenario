@@ -2,20 +2,8 @@
     "scenario": {
         "steps": [
             {
-                "text": "step1.md"
-            },
-            {
-                "text": "step2.md"
-            },
-            {
-                "text": "step3.md"
-            },
-            {
-                "text": "step4.md"
-            },
-            {
-                "text": "step5.md",
-                "verify":"verify5.json"
+                "text": "step1.md",
+                "verify":"verify1.json"
             }
         ],
         "intro": {
