@@ -7,18 +7,17 @@ mkdir Senaryo
 2. Olusturduğumuz bu klasörün içine girip, git kullanarak GitHub'tan proje reposunu kopyalayın.
 ```
 cd Senaryo
-git clone https://github.com/merve-naz/BB-Senaryo-Dockerfile2.git
+git clone https://github.com/merve-naz/BB-Senaryo-Dockerfile-Go.git 
 ```
 2.Projeyi Senaryo klasörümüze çektikten sonra  ls komutunu çalıştıralım.
 ```
 ls
 ```
-3. Burada " BB-Senaryo-Dockerfile2" adında bir klasör  olacaktır. Bu github'dan cektigimiz projenin adıdır. Şimdi bu klasöründe içine girelim.
+3. Burada " BB-Senaryo-Dockerfile-Go" adında bir klasör  olacaktır. Bu github'dan cektigimiz projenin adıdır. Şimdi bu klasöründe içine girelim.
 
 ```
-cd  BB-Senaryo-Dockerfile2
+cd  BB-Senaryo-Dockerfile-Go
 ```
-
 
 4. Ardından ls diyerek projenin içindeki dosyaları görelim.
 
@@ -34,6 +33,7 @@ Bunun sonucunda şu şekilde bir çıktı almamız gerekli
 5. Dockerfile dosyasındaki talimatları ve yönergeleri kullanarak bir Docker imajı oluşturmamız gerekiyor fakat burada verilen Dockerfile dosyasında eksik kısımlar var. İlk olarak bunu düzeltmelisiniz.
 
 Bunun için Dockerfile dosyasını metin editöründe açalım.
+
 ```
 vi Dockerfile
 ```
@@ -88,11 +88,7 @@ docker tag <local-image> <dockerhub-repo>/<image-name>:<tag-name>
 
 ```docker ımages``` diyerek de image'nin versiyonunu bulabiliriz.
 
-örnegin,
-
-```
-docker tag myimage  mervenaz/myimage:latest
-```
+örnegin `docker tag myimage  mervenaz/myimage:latest`
 
 16. Docker image'ını Docker Hub'a push edin:
 ```

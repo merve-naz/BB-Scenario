@@ -8,7 +8,7 @@ Clone the project repository from GitHub using Git:
 
 ```
 cd Scenario
-git clone https://github.com/merve-naz/BB-Senaryo-Dockerfile2.git
+git clone https://github.com/merve-naz/BB-Senaryo-Dockerfile-Go.git
 ```
 
 2. After clone,list the folder
@@ -18,7 +18,7 @@ ls
 3. There will be a folder named "BB-Scenario-Dockerfile2". This is the name of the project we pulled from github. Now let's go into this folder.
 
 ```
-cd  BB-Senaryo-Dockerfile2
+cd  BB-Senaryo-Dockerfile-Go
 ```
 
 4. List the folder
