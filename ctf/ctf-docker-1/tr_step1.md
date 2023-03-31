@@ -73,24 +73,22 @@ docker commit my-container myimage
 
 Burada, "myimage" güncellenmiş Docker imajınızın adıdır. Artık Docker imajınız, içindeki dosyaları değiştirerek güncellendi.
 
-13. DockerHub'a olusturdugumuz bu imajı atmak için ilk önce bu siteye girerek bir "https://hub.docker.com/" bir hesap olusturun. Eğer hesabınız varsa, create  repository diyerek yeni alan oluşturun.
+13. DockerHub'a olusturdugumuz bu imajı atmak için ilk önce bu siteye girerek bir "https://hub.docker.com/" bir hesap olusturun. 
 
 14. Terminal ekranına asağıdaki komutu girin. Komut çalıstığı zaman üye oldugunuz kullanıcı adı ve şifreyi soracaktır.
 ``` 
-docker run
+docker login
 ```
 
-15. Yereldeki bir imajı bir Docker hub deposuna yüklemek istiyorsanız, önce bu imajı bir etiketle belirlemelisiniz.
+15. Yereldeki bir imajı bir Docker hub deposuna yüklemek istiyorsanız, önce bu imajı bir etiketle belirlemelisiniz. Bu komutu girdiğinizde aynı zamanda dockerhub arayüzünde reponuz oluşacaktır.
 
 ```
-docker tag <local-image> <dockerhub-repo>/<image-name>:<tag-name>
+docker tag <image_name> <docker_hub_username>/<repository_name>:<tag> 
 ```
 
-```docker ımages``` diyerek de image'nin versiyonunu bulabiliriz.
-
-örnegin `docker tag myimage  mervenaz/myimage:latest`
+```docker images``` diyerek de image'nin versiyonunu bulabilirsiniz.
 
 16. Docker image'ını Docker Hub'a push edin:
 ```
-docker push  mervenaz/myimage:latest
+docker push <docker_hub_username>/<repository_name>:<tag> 
 ```

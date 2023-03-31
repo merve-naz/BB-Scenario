@@ -72,19 +72,15 @@ Here, "myimage" is the name of your updated Docker image. Now your Docker image 
 
 14. Enter the following command on the terminal screen. When the command runs, it will ask for the username and password you have registered.
 ``` 
-docker run
+docker login
 ```
 15. If you want to upload a local image to a Docker hub repository, you must first identify that image with a tag.
 ```
-docker tag <local-image> <dockerhub-repo>/<image-name>:<tag-name>
+docker tag <image_name> <docker_hub_username>/<repository_name>:<tag> 
 ```
 We can find the version of the image by saying.```docker ımages``` 
 
-such as,
-```
-docker tag myimage  mervenaz/myimage:latest
-```
 16. Push the Docker image to Docker Hub:
 ```
-docker push  mervenaz/myimage:latest
+docker push <docker_hub_username>/<repository_name>:<tag> 
 ```
