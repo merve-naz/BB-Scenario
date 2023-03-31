@@ -16,10 +16,13 @@ git clone https://github.com/merve-naz/BB-Senaryo-Dockerfile2.git
 ls
 ```
 3. There will be a folder named "BB-Scenario-Dockerfile2". This is the name of the project we pulled from github. Now let's go into this folder.
+
 ```
 cd  BB-Senaryo-Dockerfile2
 ```
+
 4. List the folder
+
 ```
 ls 
 ```
