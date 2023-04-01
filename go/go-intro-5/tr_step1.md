@@ -3,11 +3,17 @@
 ### Adım 1: Go dilinde hatalar nelerdir?
 
 Go'da hatalar, bir programın yürütülmesi sırasında meydana gelen anormal bir durumu veya durumu temsil eden değerlerdir. Hatalar genellikle başarısız olabilen işlevlerden döndürülür ve neyin yanlış gittiği ve neden olduğu hakkında bilgi sağlar.
- 
-dosya oluştur  ```mkdir ./error``` ,
-dizine git  ```cd ./error``` ,
-nano editörü ekle  ```apk add nano``` ,
-go dosyası oluştur  ```nano error.go``` ,
+
+İlk olarak go paketini yükleyelim
+  ```apk add go``` \
+dosya oluşturalım
+ ```mkdir ./error``` \
+dizine gidelim
+```cd ./error``` \
+nano editörü ekleyelim
+ ```apk add nano```  \
+go dosyası oluşturalım
+ ```nano error.go``` 
 
 Go 'da hataların nasıl döndürüldüğünü görmek için, aşağıdaki komutu yapıştırın:
 ```

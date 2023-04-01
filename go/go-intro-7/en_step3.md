@@ -1,10 +1,9 @@
-Step 3: Create a REST API for the user service
+### Step 3: Create a REST API for the user service
 Open the terminal and navigate to the project directory.
 Create a new file named user.go in the service directory.
 Open the user.go file with a text editor.
 Add the following code to create a REST API that returns a list of users:
-go
-Copy code
+```
 package main
 
 import (
@@ -31,11 +30,12 @@ func getUsers(w http.ResponseWriter, r *http.Request) {
 
 	json.NewEncoder(w).Encode(users)
 }
+```
 Save and close the user.go file.
 Run the following command to start the user service:
-go
-Copy code
+```
 go run service/user.go
+```
 You should see the following message in the terminal: Listening on :8080...
 
 Congratulations! You have created a simple REST API for the user service. In the next step, you will create a REST API for the order service.

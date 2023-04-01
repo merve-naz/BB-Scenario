@@ -21,6 +21,7 @@ func myFunc() error {
     return errors.New("something went wrong")
 }
 ```
+çalıştıralım ```go run error2.go``` \
 Şu çıktıyı almalısınız:
 
 - something went wrong
