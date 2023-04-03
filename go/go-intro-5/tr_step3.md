@@ -22,8 +22,10 @@ defer file.Close()
 // process file...
 }
 ```
-Bu kod, mevcut olmayan bir dosya açmaya çalışır ve hata oluşursa, bir hata mesajı yazdırır ve geri döner.
--error opening file: open nonexistent-file.txt: no such file or directory \
+
+Bu kod, mevcut olmayan bir dosya açmaya çalışır ve hata oluşursa, bir hata mesajı yazdırır ve geri döner \
+Dosyayı go run dediğinizde,şu çıktıyı alırsınız: \
+-error opening file: open nonexistent-file.txt: no such file or directory 
 
 Dosya başarıyla açılırsa, defer ifadesi kullanılarak işlenir ve kapatılır.
 
