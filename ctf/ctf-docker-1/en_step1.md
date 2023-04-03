@@ -1,86 +1,42 @@
 ### CTF 2.Scenario
 
-1. Create a folder for the project
+1. Pull the project from the relevant address.
 ```
-mkdir Scenario
+https://github.com/merve-naz/BB-Senaryo-Dockerfile-Go.git
 ```
-Clone the project repository from GitHub using Git:
+2. After pulling the project into our scenario folder, you can list it and see its contents.
 
-```
-cd Scenario
-git clone https://github.com/merve-naz/BB-Senaryo-Dockerfile-Go.git
-```
+3. There will be a folder named "BB-Senaryo-Dockerfile-Go" here. This is the name of the project we pulled from GitHub. Now, go into this folder.
 
-2. After clone,list the folder
-```
-ls
-```
-3. There will be a folder named "BB-Scenario-Dockerfile". This is the name of the project we pulled from github. Now let's go into this folder.
+If you see this output, you can proceed:
+- Dockerfile go.mod main.go
+- docker-compose.yaml go.sum public
 
-```
-cd  BB-Senaryo-Dockerfile-Go
-```
+4. We need to create a Docker image using the instructions and guidelines in the Dockerfile, but there are missing parts in the provided Dockerfile. First, we need to fix this.
 
-4. List the folder
+5. Let's open the Dockerfile in a text editor to do this.
 
-```
-ls 
-```
-We should see this output
- 
-- Dockerfile                  go.mod       main.go \  
-- docker-compose.yaml         go.sum       public
+6. After fixing the Dockerfile, we can now build the Docker image. (You can give a tag when creating a Docker image. Use the "latest" tag for this scenario.)
 
+7. Run the Docker container.
 
-5. We need to create a Docker image using the instructions and instructions in the Dockerfile, but the Dockerfile provided here is distrupted. We must review it first.
+8. After our application successfully starts, review whether the container is running and which ports it is connected to.
 
-Open Dockerfile on vi editor
-```
-vi Dockerfile
-```
+9. You can enter a running Docker container to modify the files inside the image using the relevant command.
 
-6. After fixing the Dockerfile, we can now get docker build. Use the following command for this.
-```
-docker build -t my-bb-scenario-image .
-```
-7. Run Docker container: After creating a Docker image, enter the following command to run this image in a Docker container.
-```
-docker run -d --name my-container -p 8080:80  my-bb-scenario-image
-```
-8. Our application was successfully launched. To check this, you can use the "docker ps" command to see if the container containing our application is running and to which ports it is connected.
+10. Review the files and folders, then go to the public folder.
 
-9. To replace the files in the image, you can enter a running Docker container using the docker exec -it command. Copy the following command.
-```
-docker exec -it   my-container /bin/sh 
-```
-10. Go the public folder
-```
-cd public
-```
-11. Let's change the index.html file in the public folder by opening it with the vi editor. For example, let's correct the "Hosgeldiniz BB" text as "WELCOME BB" and save it.
-```
-vi index.html```
-Let's exit the container by typing ```exit``` 
+11. Open the index.html file in the public folder with a text editor and make the following change: Correct "Hoşgeldiniz BB" to "WELCOME TO BB".
 
-12. Update your Docker image:
-```
-docker commit my-container myimage
-```
-Here, "myimage" is the name of your updated Docker image. Now your Docker image is updated by replacing the files in it.
+- Exit the container.
+12. Stop the Docker container and start it up again with the newly created image.
 
-13. To send this image we created to DockerHub, first create an account with "https://hub.docker.com/" by entering this site. If you have an account, create a new domain by saying create repository.
+13. To upload this image to DockerHub, first create a profile on the DockerHub website.
 
-14. Enter the following command on the terminal screen. When the command runs, it will ask for the username and password you have registered.
-``` 
+14. Enter the following command in the terminal. When the command runs, it will ask for your username and password for the account you signed up for:
+```
 docker login
-```
-15. If you want to upload a local image to a Docker hub repository, you must first identify that image with a tag.
-```
-docker tag <image_name> <docker_hub_username>/<repository_name>:<tag> 
-```
-We can find the version of the image by saying.```docker ımages``` 
+``` 
+15. To upload your Docker image to Docker Hub, you first need to tag your image with your Docker Hub username. (If you did this when creating the image in step 6, you don't need to do it again.)
 
-16. Push the Docker image to Docker Hub:
-```
-docker push <docker_hub_username>/<repository_name>:<tag> 
-```
+16. Push the Docker image to Docker Hub.
