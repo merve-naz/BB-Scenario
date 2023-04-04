@@ -3,7 +3,7 @@
         "steps": [
             {
                 "text": "step1.md",
-                "verify":"verify1.json"
+                "verify": "verify1.json"
             }
         ],
         "intro": {

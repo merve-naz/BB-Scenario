@@ -6,7 +6,7 @@
             },
             {
                 "text": "step2.md",
-                "verify":"verify2.json"
+                "verify": "verify2.json"
             }
         ],
         "intro": {

@@ -18,7 +18,7 @@
             },
             {
                 "text": "step6.md",
-                "verify":"verify6.json"
+                "verify": "verify6.json"
             }
         ],
         "intro": {

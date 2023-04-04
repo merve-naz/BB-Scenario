@@ -4,7 +4,6 @@ Now that we have an understanding of microservices, let's create a basic Go micr
 
 Create a new directory for your project by running the following command:
 
-
 ```mkdir go-microservice && cd go-microservice```
 Initialize a new Go module by running the following command:
 
