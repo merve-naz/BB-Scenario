@@ -33,9 +33,9 @@ func getUsers(w http.ResponseWriter, r *http.Request) {
 ```
 Save and close the user.go file.
 Run the following command to start the user service:
-```
-go run service/user.go
-```
+
+```go run service/user.go```
+
 You should see the following message in the terminal: Listening on :8080...
 
 Congratulations! You have created a simple REST API for the user service. In the next step, you will create a REST API for the order service.

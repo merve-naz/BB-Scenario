@@ -39,7 +39,8 @@ func handler(w http.ResponseWriter, r *http.Request) {
 6. Run Go main.go file:
 ```go run main.go```
 
+![go_port_icon.PNG](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/go_port_icon.PNG)
+7. Open navigate bar to connect 8080 port to see the "Hello, World!" message displayed in your browser.
 
-7.Open a web browser and navigate to http://localhost:8080 to see the "Hello, World!" message displayed in your browser.
 Congratulations, you have successfully created a simple web server using the Go standard library!
 

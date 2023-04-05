@@ -1,4 +1,4 @@
-Step 3/6: Maps
+### Step 3: Maps
 Maps are another important data structure in Go that allow you to store key-value pairs. To create a map, you can use the following syntax:
 
 go
