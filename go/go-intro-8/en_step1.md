@@ -1,4 +1,5 @@
-Step 1: Arrays
+
+### Step 1: Arrays
 An array is a fixed-size collection of elements of the same type. In Go, you can create an array using the following syntax:
 
 

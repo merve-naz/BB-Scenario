@@ -1,4 +1,4 @@
-Slices
+### Step 2 : Slices
 Slices are a fundamental concept in Go and provide a more powerful and flexible alternative to arrays. Slices are dynamic in nature and can grow or shrink as needed. They are built on top of arrays and provide a convenient way to work with a portion of an array.
 
 Creating Slices

@@ -60,6 +60,7 @@ Paste the codes
 
 7. Start the server by running the following command:
 
+![go_port_icon.PNG](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/go_port_icon.PNG)
 Open navigate bar to connect 8080 port on node to see the "Bulut Bilisimciler" message displayed with a blue background color.
 
 Test serving other static files by adding any file such as an image, javascript or css file to the public directory and try to access them on the browser.
